@@ -1,5 +1,4 @@
 # Solved problems from leetcode
-# Оглавление
 List of problems
 - [1] [Two Sum](https://github.com/svirskey/leetcode/blob/main/1_Two_Sum.cpp)
 // Top 79.27% runtime and 8.69% memory usage 
