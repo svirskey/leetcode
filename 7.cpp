@@ -6,28 +6,25 @@ using namespace std;
 class Solution 
 {
 public:
-    long long	ft_atol(string str)
+    long long ft_atol(const char *c) 
     {
-        long long	num;
-        int			i;
-        int			minus;
+        long long value = 0;
+        int sign = 1;
 
-        minus = 1;
-        i = 0;
-        num = 0;
-        if (str[i] == '-')
+        if( *c == '+' || *c == '-' ) 
         {
-            minus = -1;
-            i++;
+            if ( *c == '-' )
+                sign = -1;
+            c++;
         }
-        while (i < str.length() && str[i] >= '0' && str[i] <= '9' )
+        while (isdigit(*c)) 
         {
-            num *= 10;
-            num += str[i] - 48;
-            i++;
+            value *= 10;
+            value += (int) (*c - '0');
+            c++;
         }
-        return (num * minus);
-    }
+        return value * sign;
+}
 
     int reverse(int x) 
     {
@@ -44,7 +41,7 @@ public:
         {
             ret += str[str.length() - i - 1];
         }
-        long long rett = ft_atol(ret);
+        long long rett = ft_atol(ret.c_str());
         if (rett > INT_MAX || rett < INT_MIN)
             return 0;
         return rett;
