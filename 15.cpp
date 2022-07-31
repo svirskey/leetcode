@@ -1,7 +1,5 @@
 #include <vector>
 #include <iostream>
-#include <unordered_set>
-#include <string>
 #include <algorithm>
 
 class Solution 
@@ -49,8 +47,5 @@ class Solution
 
 int main()
 {
-    std::string s1= "12345",
-                s2 = "12345";
-    std::cout << std::hash<std::string>{}(s1) << std::endl << std::hash<std::string>{}(s2);
-    
+    return 0;
 }
