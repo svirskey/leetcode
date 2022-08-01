@@ -16,5 +16,7 @@ List of problems
 // Top 90.92% runtime and 92.35% memory usage
 - [20] [Valid Parentheses](https://github.com/svirskey/leetcode/blob/main/20.cpp)
 // Top 100% runtime 
+- [21] [Merge Two Sorted Lists](https://github.com/svirskey/leetcode/blob/main/21.cpp)
+// Top 98.43% runtime and 13.74% memory usage
 - [34] [Find First and Last Position of Element in Sorted Array](https://github.com/svirskey/leetcode/blob/main/34.cpp)
 // Top 84.21% runtime and 63.15% memory usage
