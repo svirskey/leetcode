@@ -12,6 +12,8 @@ List of problems
 // Top 59.61% runtime and 74.05% memory usage
 - [14] [Longest Common Prefix](https://github.com/svirskey/leetcode/blob/main/14.cpp)
 // Top 64.72% runtime and 31.32% memory usage
+- [15] [3Sum](https://github.com/svirskey/leetcode/blob/main/15.cpp)
+// Top 90.92% runtime and 92.35% memory usage
 - [20] [Valid Parentheses](https://github.com/svirskey/leetcode/blob/main/20.cpp)
 // Top 100% runtime 
 - [34] [Find First and Last Position of Element in Sorted Array](https://github.com/svirskey/leetcode/blob/main/34.cpp)
