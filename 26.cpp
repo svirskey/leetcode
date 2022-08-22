@@ -3,7 +3,7 @@
 class Solution 
 {
 public:
-    int removeDuplicates(vector<int>& nums) 
+    int removeDuplicates(std::vector<int>& nums) 
     {
         int to = 0;
         for (int from = 1; from < nums.size(); from++)
