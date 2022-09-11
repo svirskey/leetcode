@@ -1,6 +1,7 @@
 .vscode/
 # Prerequisites
 *.d
+*_todo.cpp
 
 # Compiled Object files
 *.slo
