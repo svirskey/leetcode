@@ -6,11 +6,6 @@ class Solution
 {
     public:
 
-    Solution()
-    {
-        std::ios::sync_with_stdio(false);
-        std::cin.tie(nullptr);
-    }
     int lengthOfLongestSubstring(std::string s) 
     {
         int best = 0, 
@@ -38,6 +33,6 @@ class Solution
 int main()
 {
     Solution s;
-    std::string str = "pwwkew";
+    std::string str = "pwwkewabcdef";
     std::cout << s.lengthOfLongestSubstring(str) << std::endl;
 }

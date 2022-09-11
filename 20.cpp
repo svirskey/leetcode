@@ -10,6 +10,7 @@ public:
     bool isValid(string s) 
     {
         stack<int> lst;
+        
         for (int i = 0; i < s.length(); i++)
         {
             if (s[i] == '(')
